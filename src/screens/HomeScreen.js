@@ -21,12 +21,32 @@ const HomeScreen = ({ navigation }) => {
         onPress={() => navigation.navigate("Counter")}
       />
       <Button
+        title="Got to Counter Demo with Reducer"
+        onPress={() => navigation.navigate("Counter1")}
+      />
+      <Button
         title="Go to Color Demo"
         onPress={() => navigation.navigate("Color")}
       />
       <Button
         title="Go to Square Demo"
         onPress={() => navigation.navigate("Square")}
+      />
+      <Button
+        title="Go to Square Demo with Reducer"
+        onPress={() => navigation.navigate("Square1")}
+      />
+      <Button
+        title="Go to Text Screen Demo"
+        onPress={() => navigation.navigate("TextScreen")}
+      />
+      <Button
+        title="Go to Text Validation Screen Demo"
+        onPress={() => navigation.navigate("TextValidationScreen")}
+      />
+      <Button
+        title="Go to Box Demo"
+        onPress={() => navigation.navigate("Box")}
       />
     </View>
   );
